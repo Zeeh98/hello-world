@@ -1,0 +1,12 @@
+library(readr)
+food <- read_csv("food.csv")
+View(food)
+hist(food$calories_chicken)
+hist(food$calories_chicken, main = "Number of Calories Each Student Gets From Chicken", ylab = "Number of Students", xlab = "Number of Calories")
+hist(food$cook)
+hist(food$cook, main = "Number of Times Students Cooks in a Day", ylab = "Number of Students", xlab = "Cooking Frequnecy")
+hist(food$eating_out)
+hist(food$eating_out, main = "Number of Times Students That Eat Out", xlab = "Eating Outside Food", ylab = "Number of Students")
+hist(food$exercise)
+hist(food$eating_out, main = "Number of Times That Students Eat Out", xlab = "Eating Outside Food", ylab = "Number of Students")
+
